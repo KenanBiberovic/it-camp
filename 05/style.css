@@ -1,0 +1,23 @@
+.main {
+  border: 2px solid grey;
+  border-radius: 6px;
+  width: 400px;
+  height: 1000;
+  padding: 30px;
+}
+.icon {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+.button {
+  background-color: rgb(62, 62, 170);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 100px;
+  color: white;
+  margin-top: 10px;
+  border: 1px rgb(62, 62, 170;
+  
+}
