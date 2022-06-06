@@ -1,0 +1,28 @@
+h1 {
+  color: rgb(11, 11, 15);
+}
+h2 {
+  color: rgb(14, 14, 19);
+}
+p {
+  color: rgb(11, 11, 15);
+}
+img {
+  width: 200px;
+  height: 130px;
+  position: absolute;
+right: 0%;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  background-color: royalblue;
+  
+ 
+th {
+  color: rgb(19, 70, 165);
+}
+td {
+  color: rgb(40, 38, 156);
+}
