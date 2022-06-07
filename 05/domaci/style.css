@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid grey;
+  background-color: rgb(40, 49, 73);
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  box-shadow: 2px 2px 3px grey;
+}
+.slika {
+  width: 400px;
+  height: 200px;
+  border-radius: 30px;
+}
+.BUTTON {
+  border: none;
+  color: rgb(234, 236, 241);
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 5px 180px;
+  cursor: pointer;
+  background-color: rgb(40, 49, 73);
+  border-radius: 9px;
+  box-shadow: 2px 2px 3px grey;
+}
