@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+  animation: slide 6s;
+  animation-iteration-count: infinite;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  animation-delay: 0.5s;
+}
+@keyframes slide {
+  0% {
+    transform: translate(0, 0px);
+  }
+  30% {
+    transform: translate(-60px, 60px);
+  }
+  60% {
+    transform: translate(60px, -60px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
