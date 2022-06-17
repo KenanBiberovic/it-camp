@@ -10,6 +10,7 @@
   height: 450px;
   border: 2px solid rgb(179, 164, 164);
   border-radius: 8px;
+  color: grey;
 }
 .start:hover {
   width: 350px;
@@ -24,6 +25,7 @@
   height: 450px;
   border: 2px solid rgb(144, 144, 252);
   border-radius: 8px;
+  color: grey;
 }
 .pro:hover {
   width: 350px;
@@ -32,13 +34,13 @@
   border-radius: 8px;
   box-shadow: 4px 4px 4px aqua;
   background-color: aqua;
-
 }
 .business {
   width: 350px;
   height: 450px;
   border: 2px solid rgb(179, 164, 164);
   border-radius: 8px;
+  color: grey;
 }
 .business:hover {
   width: 350px;
@@ -53,22 +55,21 @@
   height: 450px;
   border: 2px solid rgb(179, 164, 164);
   border-radius: 8px;
+  color: grey;
 }
 .special:hover {
   width: 350px;
   height: 450px;
   border: 2px solid rgb(179, 164, 164);
   border-radius: 8px;
-  box-shadow: 4px 4px  aqua;
+  box-shadow: 4px 4px aqua;
   background-color: aqua;
-
 }
 h1 {
   border-bottom: 1px solid grey;
   margin-left: 20px;
   font-size: 43px;
   margin-right: 20px;
-  
 }
 h5 {
   margin-left: 20px;
@@ -119,7 +120,7 @@ button:hover {
   border: none;
   cursor: pointer;
 }
- 
+
 .rightbutton {
   margin-left: -3px;
   width: 100px;
@@ -127,13 +128,13 @@ button:hover {
   background-color: white;
   color: blue;
   border: blue;
-  bordred border-radius: 4px;
+  border-radius: 4px;
   cursor: pointer;
 }
 p {
   margin: 10px;
 }
-.bussinesbutton{
+.bussinesbutton {
   width: 250px;
   height: 40px;
   margin-left: 20px;
