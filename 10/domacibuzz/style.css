@@ -32,7 +32,7 @@ body {
   display: none;
   transition: 0.3s all ease;
 }
-.container:hover .droplist {
+.midle:hover .droplist {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,7 +48,7 @@ button {
   background-color: white;
 }
 button:hover {
-  background-color: rgba(128, 128, 128, 0.568);
+  background-color: rgba(128, 128, 128, 0.74);
   box-shadow: 3px 3px rgba(253, 250, 250, 0.726);
 }
 ul {
