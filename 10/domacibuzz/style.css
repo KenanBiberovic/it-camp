@@ -56,3 +56,10 @@ ul {
   font-weight: 600;
   list-style-type: none;
 }
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.green {
+  color: rgba(13, 196, 13, 0.767);
+}
