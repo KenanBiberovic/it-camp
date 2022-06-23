@@ -12,6 +12,9 @@ nav {
   width: 100%;
   height: 10vh;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: white;
 }
 
 .middle {
@@ -81,4 +84,110 @@ li:hover {
   margin-top: 10px;
   cursor: pointer;
   border: none;
+}
+.secondpage {
+  width: 100%;
+  height: 100vh;
+  border-bottom: 1px solid rgba(247, 245, 243, 0.781);
+  display: flex;
+  border-bottom: 1px solid rgba(247, 245, 243, 0.781);
+}
+.left2 {
+  width: 60%;
+  height: 70vh;
+}
+.right2 {
+  width: 40%;
+  height: 70vh;
+  position: relative;
+}
+.leftwallpaper {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  margin-left: 200px;
+}
+.navleft {
+  margin-left: 70%;
+  margin-top: 0%;
+}
+.bookphone {
+  width: 500px;
+  height: 150px;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1500px;
+  left: 300px;
+}
+.aboutus {
+  font-family: "Amatic SC", cursive;
+  font-size: 35px;
+}
+.righttop {
+  width: 300px;
+  height: 7000px;
+  position: absolute;
+  top: 90px;
+  right: 400px;
+}
+.rightbotpicture {
+  width: 403px;
+  height: 320px;
+  position: absolute;
+  top: 480px;
+  right: 300px;
+}
+h3 {
+  font-weight: 300;
+}
+
+.thirdpage {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  background-image: url("https://1.bp.blogspot.com/-makPCRDjnMo/YEiFbjTrrFI/AAAAAAAABqw/4U47SrZJq1M4vwEbxGI6_7wfoQftg1-mwCLcBGAsYHQ/s750/zzz.jpg");
+}
+
+.cardcontainter {
+  width: 100%;
+  height: 60vh;
+  background-color: rgba(247, 245, 243, 0.993);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 300px;
+}
+
+.whychoose {
+  width: 350px;
+  height: 420px;
+  background-color: red;
+  padding-left: 10px;
+  border-radius: 2px;
+}
+.Corporis {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 2px;
+}
+.Ullamco {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 2px;
+}
+.Labore {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 2px;
 }
