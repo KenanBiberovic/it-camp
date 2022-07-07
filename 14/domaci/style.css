@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(163, 82, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+table {
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  border-collapse: collapse;
+
+  border-radius: 10px;
+  text-align: center;
+}
+th {
+  background-color: rgb(89, 18, 155);
+  color: white;
+  border-radius: 1px;
+}
+tr:nth-child(odd) {
+  background: rgba(243, 238, 238, 0.548);
+}
