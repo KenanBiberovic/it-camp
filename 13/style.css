@@ -9,28 +9,28 @@
   text-align: center;
 }
 .header {
-  background-color: yellow;
+  background-color: rgb(247, 0, 255);
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 .nav {
-  background-color: yellow;
+  background-color: rgb(175, 13, 135);
   grid-column-start: 2;
   grid-column-end: 1;
   grid-row-start: 2;
   grid-row-end: 6;
 }
 .article {
-  background-color: yellow;
+  background-color: orange;
   grid-column-start: 2;
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 5;
 }
 .ads {
-  background-color: yellow;
+  background-color: rgb(9, 143, 60);
   grid-column-start: 6;
   grid-column-end: 7;
   grid-row-start: 2;
