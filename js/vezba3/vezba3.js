@@ -10,13 +10,14 @@
 //   for (j = 1; j <= i; j++) console.log(i);
 // }
 
-unos = Number(prompt("Unos :"));
-brojz = "";
+unos = Number(prompt("Unesi broj"));
+zvezdice = "";
+
 for (i = 1; i <= unos; i++) {
   space = "";
+  for (j = 1; j <= unos - i; j++) {
+    space += " ";
+  }
+  zvezdice += "* ";
+  console.log(space + zvezdice);
 }
-for (j = 1; j <= unos - 1; j++) {
-  space += " ";
-}
-brojz += "* ";
-console.log(space + brojz);
