@@ -71,20 +71,6 @@
 // niz1.push(niz2);
 // console.log(niz1);
 
-// const array = [2, 3, 5, 6, 6, 6];
-// let unique;
-// for (i = 0; i < array.length; i++) {
-//   for (j = i + 1; j < array.length; j++) {
-//     if (array[i] !== array[j]) {
-//       unique = array[i] - 1; //proverava sa samim sobom(-1)
-//       break;
-//     } else {
-//       break;
-//     }
-//   }
-// }
-// console.log("unique  " + unique);
-
 // const array = [2, 3, 5, 6, 6, 3, 5];
 // let count = 0;
 
@@ -98,14 +84,33 @@
 // }
 // console.log("duplikati " + count);
 
-const niz1 = [1, 2, 3];
-const niz2 = [1, 2, 3];
-const niz3 = [];
-niz1.push(niz2);
-// console.log(niz2);
-for (i = 0; i < niz1.length; i++) {
-  console.log(niz1[i]);
+// const array = [2, 3, 5, 6, 6, 6];
+// let unique = [];
+// inside = false;
+// for (i = 0; i < array.length; i++) {
+//   for (j = 0; j < unique.length; j++) {
+//     if (arr[i] === unique[j]);
+//     inside = true;
+//     break;
+//   }
+//   if (inside) {
+//     continue;
+//   } else {
+//     unique.push(array[i]);
+//   }
+// }
+
+const array = [22, 12, 35, 68, 48, 55];
+let min = [];
+let max = [];
+
+for (let i = 0; i < array.length; i++) {
+  if (array[i] > max) {
+    max = array[i];
+  }
+  if (array[i] < min) {
+    min = array[i];
+  }
 }
-for (i = niz1.length; (i = 0); i--) {
-  console.log(niz1[i]);
-}
+console.log("max " + max);
+console.log("min " + min);
