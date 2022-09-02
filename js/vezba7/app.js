@@ -54,3 +54,31 @@
 //   }
 // }
 // EvenOrOdd(11);
+
+// function fakeBib(x) {
+//   arr = [];
+//   for (i = o; i < x.lenght; i++) {
+//     el = Number(x[i]);
+//     if (el >= 5) {
+//       str += "1";
+//     } else {
+//       str += "0";
+//     }
+//   }
+//}
+
+// function findmultiply (integer,limit){
+//     arr=[]
+//     sum=integer
+//     while(sum<=limit){
+//         arr.push(sum)
+//         sum+=integer
+//     }
+//     return arr
+// }
+
+// otac sin razlika
+// function twiceAsOld (fatherYear, SonYear){
+// return Math.abs(SonYear-(fatherYear-SonYear))
+
+// }
