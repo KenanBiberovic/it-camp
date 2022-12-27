@@ -31,7 +31,7 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
-
+      {props.items.map}
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
